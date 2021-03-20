@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "diesuki4's blog"
+title                    : "Whitê Hacker ωannabe！"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Kyungbin Cho"
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Kyungbin Cho"
   avatar           : "/assets/images/image-512x512.png"
-  bio              : "Whitê Hacker ωannabe！"
+  bio              : "Reverse Engineering, System Hacking, Game Hacking"
   location         : "Korea, Republic of"
   email            : # "your.name@email.com"
   links:
