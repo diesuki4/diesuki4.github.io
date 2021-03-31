@@ -174,8 +174,7 @@ well done 은 1, 2단계에서도 나오는 메세지라서 You have beaten ~ �
 ```
 [ENABLE]
 "gtutorial-x86_64.exe"+4142C:
-  cmp rax, rax // ZF를 항상 1로 세팅
-  nop
+  test ax, 0 // ZF를 항상 1로 세팅
 "gtutorial-x86_64.exe"+41453:
   db 90 90 // 아무 작업 하지 않음
 
