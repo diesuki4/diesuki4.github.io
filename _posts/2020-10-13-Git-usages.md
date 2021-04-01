@@ -8,7 +8,7 @@ GUI가 지원되는 OS라면 그냥 Sourcetree나 Github Desktop을 쓰면 된�
 
 Git 처음 설치후 해야할것
 ```
-git config --global user.name "{Git 아이디}"
+git config --global user.name "설정한 이름"
 git config --global user.email "{Git 로그인 이메일}"
 # 푸시시 로그인 이메일 입력 생략
 git config --global credential.username "{Git 로그인 이메일}"
@@ -63,11 +63,6 @@ git pull
 클론 (다운로드)
 ```
 git clone https://github.com/{아이디}/{레포지토리}.git
-```
-
-푸시시 로그인 이메일 입력 생략
-```
-git config --global credential.username "{Git 로그인 이메일}"
 ```
 
 푸시시 자동 로그인 설정 (홈 디렉터리 .gitconfig에 비밀번호가 Plain text로 저장되므로 사용하지 않는것이 좋음)
