@@ -8,7 +8,7 @@ GUI가 지원되는 OS라면 그냥 Sourcetree나 Github Desktop을 쓰면 된�
 
 Git 처음 설치후 해야할것
 ```
-git config --global user.name "설정한 이름"
+git config --global user.name "{설정한 이름}"
 git config --global user.email "{Git 로그인 이메일}"
 # 푸시시 로그인 이메일 입력 생략
 git config --global credential.username "{Git 로그인 이메일}"
