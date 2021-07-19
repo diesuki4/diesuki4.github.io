@@ -148,6 +148,7 @@ GRUB 설치 & 설정 (UEFI)
 # grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=ubuntu --recheck --no-floppy
 # update-grub
 # update-initramfs -u -k all
+
 # nano /etc/default/grub
 #GRUB_HIDDEN_TIMEOUT=0
 GRUB_TIMEOUT=5
@@ -236,6 +237,7 @@ log2ram 설치
 SIZE=128M
 MAIL=false
 LOG_DISK_SIZE=320M
+
 # shutdown -r now
 $ sudo su
 # rm -rf log2ram
@@ -298,4 +300,24 @@ set tabsize 4
 ```
 # cd ..
 # rm -rf t
+```
+<br>
+
+ls & exa 출력 색상 변경
+```
+# nano /etc/environment
+EXA_COLORS="da=36"
+
+# nano ~/.bashrc
+LS_COLORS=$LS_COLORS:"di=1;36:"
+export LS_COLORS
+
+# nano /etc/skel/.bashrc
+LS_COLORS=$LS_COLORS:"di=1;36:"
+export LS_COLORS
+
+# exit
+$ nano ~/.bashrc
+LS_COLORS=$LS_COLORS:"di=1;36:"
+export LS_COLORS
 ```
