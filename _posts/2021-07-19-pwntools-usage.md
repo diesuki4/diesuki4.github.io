@@ -47,7 +47,7 @@ p = s.process("./elf")
 인자 전달
 ```
 arg = ['' for i in range(4)]
-arg[0] = "0000" # 변경 안 하면 실행 파일 경로
+arg[0] = "0000"    # 변경 안 하면 실행 파일 경로
 arg[1] = "AAA"
 arg[2] = "\xef\xbe\xad\de"
 arg[3] = "BB"
