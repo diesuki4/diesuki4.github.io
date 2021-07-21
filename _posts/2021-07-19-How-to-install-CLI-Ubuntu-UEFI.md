@@ -270,9 +270,6 @@ UEFI 확인
 # wget https://github.com/sharkdp/bat/releases/download/v0.18.2/bat_0.18.2_amd64.deb
 # dpkg -i bat_0.18.2_amd64.deb
 
-# wget https://github.com/sharkdp/hexyl/releases/download/v0.9.0/hexyl_0.9.0_amd64.deb
-# dpkg -i hexyl_0.9.0_amd64.deb
-
 # wget https://github.com/sharkdp/fd/releases/download/v8.2.1/fd_8.2.1_amd64.deb
 # dpkg -i fd_8.2.1_amd64.deb
 
