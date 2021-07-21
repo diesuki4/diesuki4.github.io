@@ -339,5 +339,5 @@ rm -rf "$fname"
 $ chmod +x backup_history.sh
 $ crontab -e
 # 매일 00시 00분에 백업
-0 0 * * * ~/command_history/history.sh
+0 0 * * * ~/command_history/backup_history.sh
 ```
