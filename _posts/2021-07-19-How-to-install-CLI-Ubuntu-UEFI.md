@@ -318,3 +318,26 @@ $ nano ~/.bashrc
 LS_COLORS=$LS_COLORS:"di=1;36:"
 export LS_COLORS
 ```
+<br>
+
+명령어 히스토리 자동 백업
+```
+$ mkdir command_history
+$ cd command_history
+$ nano backup_history.sh
+#!/bin/bash
+cd ~/command_history
+tstamp=$(date +%y%m%d%H%M%S)
+fname="backup_$tstamp"
+
+HISTFILE=~/.bash_history
+set -o history
+
+history > "$fname"
+tar czvf "$fname.tar.gz" "$fname"
+rm -rf "$fname"
+$ chmod +x backup_history.sh
+$ crontab -e
+# 매일 00시 00분에 백업
+0 0 * * * ~/command_history/history.sh
+```
