@@ -37,6 +37,14 @@ OneGadget 설치
 ```
 <br>
 
+hexyl 설치
+```
+# wget https://github.com/sharkdp/hexyl/releases/download/v0.9.0/hexyl_0.9.0_amd64.deb
+# dpkg -i hexyl_0.9.0_amd64.deb
+# rm -rf hexyl_0.9.0_amd64.deb
+```
+<br>
+
 PEDA 설치 (유저별)
 ```
 # exit
