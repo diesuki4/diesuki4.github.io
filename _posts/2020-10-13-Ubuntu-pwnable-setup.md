@@ -15,10 +15,7 @@ $ sudo su
 
 ROPGadget, pwntools 설치
 ```
-# apt install python-pip python3-dev curl git
-# curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-# python get-pip.py
-# rm -rf get-pip.py
+# apt install python3-dev curl git
 # pip install ropgadget
 # pip install pwntools
 ```
