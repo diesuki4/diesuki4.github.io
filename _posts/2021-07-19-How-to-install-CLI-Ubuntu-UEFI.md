@@ -216,9 +216,12 @@ $ sudo su
 ```
 <br>
 
-python3 -> python
+Python
 ```
 # update-alternatives --install /usr/bin/python python /usr/bin/python3 1
+# curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+# python get-pip.py
+# rm -rf get-pip.py
 ```
 <br>
 
@@ -267,6 +270,18 @@ UEFI 확인
 # unzip exa-linux-x86_64-v0.10.1.zip -d exa-linux-x86_64-v0.10.1
 # mv exa-linux-x86_64-v0.10.1/bin/exa /usr/local/bin/
 
+# wget https://github.com/junegunn/fzf/releases/download/0.27.2/fzf-0.27.2-linux_amd64.tar.gz
+# tar xzvf fzf-0.27.2-linux_amd64.tar.gz
+# mv fzf /usr/local/bin/
+
+# wget https://github.com/orf/gping/releases/download/gping-v1.2.3/gping-Linux-x86_64.tar.gz
+# tar xzvf gping-Linux-x86_64.tar.gz
+# mv gping /usr/local/bin/
+
+# wget https://github.com/bootandy/dust/releases/download/v0.6.2/dust-v0.6.2-x86_64-unknown-linux-gnu.tar.gz
+# tar xzvf dust-v0.6.2-x86_64-unknown-linux-gnu.tar.gz
+# mv dust-v0.6.2-x86_64-unknown-linux-gnu/dust /usr/local/bin/
+
 # wget https://github.com/sharkdp/bat/releases/download/v0.18.2/bat_0.18.2_amd64.deb
 # dpkg -i bat_0.18.2_amd64.deb
 
@@ -276,11 +291,45 @@ UEFI 확인
 # wget https://github.com/BurntSushi/ripgrep/releases/download/13.0.0/ripgrep_13.0.0_amd64.deb
 # dpkg -i ripgrep_13.0.0_amd64.deb
 
+# wget https://github.com/muesli/duf/releases/download/v0.6.2/duf_0.6.2_linux_amd64.deb
+# dpkg -i duf_0.6.2_linux_amd64.deb
+
+# wget https://github.com/dandavison/delta/releases/download/0.8.3/git-delta_0.8.3_amd64.deb
+# dpkg -i git-delta_0.8.3_amd64.deb
+
+# wget https://github.com/Peltoche/lsd/releases/download/0.20.1/lsd_0.20.1_amd64.deb
+# dpkg -i lsd_0.20.1_amd64.deb
+
+# wget https://github.com/ClementTsang/bottom/releases/download/0.6.3/bottom_0.6.3_amd64.deb
+# dpkg -i bottom_0.6.3_amd64.deb
+
+# wget https://dystroy.org/broot/download/x86_64-linux/broot
+# chmod +x broot
+# mv broot /usr/local/bin/
+
 # apt install snapd
 # snap install procs
 # nano /etc/environment
 "...:/snap/bin"
 # source /etc/environment
+
+# apt install silversearcher-ag httpie npm
+
+# npm install gtop -g
+
+# pip install glances
+# pip install tldr
+
+# git clone https://github.com/cantino/mcfly
+# cd mcfly
+# cargo install --path .
+# cd ..
+
+# cargo install sd
+# cargo install choose
+# cargo install zoxide
+
+# curl -sfL https://raw.githubusercontent.com/ducaale/xh/master/install.sh | sh
 
 # curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
 # nano /etc/nanorc
@@ -300,23 +349,35 @@ set tabsize 4
 ```
 <br>
 
-ls & exa 출력 색상 변경
+PATH 설정, ls & exa 출력 색상 변경
 ```
+# mkdir .cargo
+# cp -r /root/.cargo/bin ./.cargo/
+# chown -R user:user .cargo
+
 # nano /etc/environment
 EXA_COLORS="da=36"
 
 # nano ~/.bashrc
 LS_COLORS=$LS_COLORS:"di=1;36:"
 export LS_COLORS
+eval "$(zoxide init bash)"
+eval "$(mcfly init bash)"
 
 # nano /etc/skel/.bashrc
+export PATH="$PATH:$HOME/.cargo/bin"
 LS_COLORS=$LS_COLORS:"di=1;36:"
 export LS_COLORS
+eval "$(zoxide init bash)"
+eval "$(mcfly init bash)"
 
 # exit
 $ nano ~/.bashrc
+export PATH="$PATH:$HOME/.cargo/bin"
 LS_COLORS=$LS_COLORS:"di=1;36:"
 export LS_COLORS
+eval "$(zoxide init bash)"
+eval "$(mcfly init bash)"
 ```
 <br>
 
