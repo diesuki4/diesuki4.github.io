@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Kyungbin Cho"
-  avatar           : "/assets/images/image-512x512.png"
+  avatar           : "/assets/images/profile.jpg"
   bio              : "Reverse Engineering, Malware Analysis, Game Hacking"
   location         : "Korea, Republic of"
   email            : # "your.name@email.com"
