@@ -51,4 +51,4 @@ OnTrigger__() 조건과 비슷하지만 둘 다 isTrigger 가 비활성화이고
 
 Collision 이 발생할 때 Rigidbody 를 가진 오브젝트 끼리 충돌하면 물리적인 처리에 따라 함께 움직이고
 
-RigidBody 를 가진 움직이는 오브젝트가 Collider 를 갖는 오브젝트와 충돌하면 정지하거나 일방적으로 밀리게 됩니다.
+Rigidbody 를 가진 움직이는 오브젝트가 Collider 를 갖는 오브젝트와 충돌하면 정지하거나 일방적으로 밀리게 됩니다.
