@@ -45,7 +45,7 @@ OnCollision__() 발생 조건에서 Rigidbody 를 갖는 오브젝트가 모두 
 OnTrigger__() 조건과 비슷하지만 둘 다 isTrigger 가 비활성화이고 Rigidbody 를 갖는 오브젝트가 하나 이상 움직이면 OnCollision__()
 
 나머지는 충돌 처리가 일어나지 않습니다.
-<br>
+<br><br>
 
 또, Trigger 는 물체를 지나치면서 Trigger 만 발생하는 반면 Collision 은 isKinematic 이 활성화 돼있지 않으면 물리적인 충돌 처리도 하게 됩니다.
 
