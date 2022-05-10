@@ -10,7 +10,7 @@ categories: Unity 유니티 충돌 처리 collision handling
 
 아래는 결과를 토대로 순서도를 만들어 본 것입니다.
 
-![Untitled Diagram drawio](https://user-images.githubusercontent.com/79886133/167612267-3d254764-06aa-4fb1-9f2e-afd520783a8a.png)
+![Untitled Diagram drawio](https://user-images.githubusercontent.com/79886133/167633955-1c7f1514-1a13-4f74-8b0a-bf1a998a0aaa.png)
 <br><br>
 
 다음은 OnTrigger__() 가 발생하기 위한 조건입니다.
@@ -21,11 +21,12 @@ categories: Unity 유니티 충돌 처리 collision handling
 ```
 <br>
 
-OnCollision__() 은 특정한 하나의 상황에서만 발생합니다.
+OnCollision__() 의 발생 조건입니다.
 ```
 1. 둘 다 Collider 를 갖고 있어야 한다.
-2. 둘 다 Rigidody 를 갖고 있어야 한다.
+2. 둘 중 하나 이상은 Rigidbody 를 갖고 있어야 한다.
 3. 둘 다 isTrigger 가 비활성화 상태여야 한다.
+4. Rigidbody 를 갖는 오브젝트가 하나 이상 움직여야 한다.
 ```
 <br>
 
@@ -33,9 +34,7 @@ OnCollision__() 은 특정한 하나의 상황에서만 발생합니다.
 
 이 경우는 충돌이 일어날 것 같지만 실제로는 그렇지 않습니다.
 ```
-1. 둘 다 Collider 를 갖고 있고
-2. 하나가 Rigidbody 를 갖고 있고
-3. 둘 다 isTrigger 가 비활성화 상태일 때
+OnCollision__() 발생 조건에서 Rigidbody 를 갖는 오브젝트가 모두 움직이지 않을 때
 ```
 <br>
 
@@ -43,6 +42,13 @@ OnCollision__() 은 특정한 하나의 상황에서만 발생합니다.
 
 둘 다 Collider 를 갖고 하나 이상이 Rigidbody 를 갖고 하나 이상이 isTrigger 가 활성화 상태이면 OnTrigger__() 가 호출됩니다.
 
-나머지 경우 중 OnCollision__() 의 한 가지 특수한 상황을 제외하고는 충돌 처리는 발생하지 않습니다.
+OnTrigger__() 조건과 비슷하지만 둘 다 isTrigger 가 비활성화이고 Rigidbody 를 갖는 오브젝트가 하나 이상 움직이면 OnCollision__()
 
-또, Trigger 는 물체를 지나치면서 Trigger 만 발생하는 반면 Collision 은 isKinematic 이 활성화 돼있지 않으면 물체를 밀고 가게 됩니다.
+나머지는 충돌 처리가 일어나지 않습니다.
+<br>
+
+또, Trigger 는 물체를 지나치면서 Trigger 만 발생하는 반면 Collision 은 isKinematic 이 활성화 돼있지 않으면 물리적인 충돌 처리도 하게 됩니다.
+
+Collision 이 발생할 때 Rigidbody 를 가진 오브젝트 끼리 충돌하면 물리적인 처리에 따라 함께 움직이고
+
+RigidBody 를 가진 움직이는 오브젝트가 Collider 를 갖는 오브젝트와 충돌하면 정지하거나 일방적으로 밀리게 됩니다.
