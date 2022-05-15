@@ -3,6 +3,11 @@ title: "Unity 충돌 처리 / Unity collision handling"
 date: 2022-05-10 20:12:06 +0900
 categories: Unity 유니티 충돌 처리 collision handling
 ---
+원칙적으로 Rigidbody는 움직이는 오브젝트만 가져야 하고
+
+움직이지 않는 오브젝트에서 isTrigger를 조정하여 충돌과 통과를 조절하게 됩니다.
+<br><br>
+
 공부하면서 어떤 때에 OnTriggerEnter() 가 호출되고 어떤 때에 OnCollisionEnter() 가 호출되는지 헷갈려서 모든 경우의 수를 고려해 직접 충돌시켜 보았습니다.
 
 ![bandicam 2022-05-10 19-47-12-504](https://user-images.githubusercontent.com/79886133/167611899-a16da938-4199-4b6b-bacc-6f2f456edeb4.png)
