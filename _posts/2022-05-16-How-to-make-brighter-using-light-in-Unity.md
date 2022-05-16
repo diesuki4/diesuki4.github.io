@@ -1,7 +1,7 @@
 ---
 title: "Unity에서 라이트를 이용해 밝게 만들기 / How to make brighter using light in Unity"
 date: 2022-05-16 9:50:06 +0900
-categories: Unity 유니티 충돌 처리 collision handling
+categories: Unity 유니티 라이트 밝게 만들기 light make brighter
 ---
 처음 맵을 가져왔을 때는 분명 밝았는데 라이트 설정을 수정하고 라이트맵을 구울수록 점점 어두워져서 원인을 찾아봤습니다.
 <br><br>
