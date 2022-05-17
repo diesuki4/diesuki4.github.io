@@ -13,6 +13,8 @@ Capsule Collider 를 내장하고 있어 움직이는 Collider 라고 생각하�
 <br><br>
 
 CharacterController 를 사용하더라도 Move() 함수가 아닌 transform.position 으로 이동을 제어하면 오브젝트를 통과하여 지나가게 됩니다.
+
+(Rigidbody 는 transform.position 으로 제어해도 통과하지 않습니다.)
 <br><br>
 
 또한, Rigidbody 처럼 매순간 물리적인 변화를 체크하지 않고 움직인 경우에만 변화된 값을 갱신합니다.
