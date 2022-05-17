@@ -34,11 +34,4 @@ OnCollision__() 의 발생 조건입니다.
 ```
 <br>
 
-Trigger 는 물체를 통과하면서 Trigger 만 발생하는 반면 Collision 은 isKinematic 이 활성화 돼있지 않으면 물리적인 충돌 처리도 하게 됩니다.
-<br><br>
-
-추가적으로, CharacterController 는 캐릭터가 움직이는데 무거운 Rigidbody 컴포넌트를 사용할 필요가 없기 때문에 만들어진 컴포넌트이고
-
-중력 등 간단한 기능들은 직접 구현하여 사용할 수 있도록 물리 처리가 빠진 Rigidbody 라고 생각하면 될 것 같습니다.
-
-따라서, Collision 이 발생할 때도 힘을 받아 튕겨지는 Rigidbody 와 달리 그냥 멈추게 됩니다.
+Trigger 는 물체를 통과하면서 Trigger 만 발생하는 반면 Collision 은 isKinematic 이 활성화 돼있지 않으면 물리적인 충돌 처리도 하게 됩니다. 
