@@ -21,16 +21,16 @@ categories: Unity 유니티 충돌 처리 collision handling
 다음은 OnTrigger__() 가 발생하기 위한 조건입니다.
 ```
 1. 둘 다 Collider 를 갖고 있어야 한다.
-2. 둘 중 하나 이상은 Rigidbody 를 갖고 있어야 한다.
+2. 둘 중 하나 이상은 Rigidbody 혹은 CharacterController 를 갖고 있어야 한다.
 3. 둘 중 하나 이상은 isTrigger 가 활성화 상태여야 한다.
 ```
 
 OnCollision__() 의 발생 조건입니다.
 ```
 1. 둘 다 Collider 를 갖고 있어야 한다.
-2. 둘 중 하나 이상은 Rigidbody 를 갖고 있어야 한다.
+2. 움직이는 오브젝트 중 하나 이상은 Rigidbody 를 갖고 있어야 한다.
 3. 둘 다 isTrigger 가 비활성화 상태여야 한다.
 ```
 <br>
 
-Trigger 는 물체를 통과하면서 Trigger 만 발생하는 반면 Collision 은 isKinematic 이 활성화 돼있지 않으면 물리적인 충돌 처리도 하게 됩니다. 
+Trigger 는 물체를 통과하면서 Trigger 만 발생하는 반면 Collision 은 isKinematic 이 활성화 돼있지 않으면 힘을 받아 튕기는 등의 물리적인 충돌 처리도 하게 됩니다. 
