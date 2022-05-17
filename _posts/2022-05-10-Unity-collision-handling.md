@@ -30,7 +30,6 @@ OnCollision__() 의 발생 조건입니다.
 1. 둘 다 Collider 를 갖고 있어야 한다.
 2. 둘 중 하나 이상은 Rigidbody 를 갖고 있어야 한다.
 3. 둘 다 isTrigger 가 비활성화 상태여야 한다.
-4. Rigidbody 를 갖는 오브젝트가 하나 이상 움직여야 한다.
 ```
 <br>
 
