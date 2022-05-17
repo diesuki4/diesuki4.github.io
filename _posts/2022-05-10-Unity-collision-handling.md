@@ -11,6 +11,7 @@ categories: Unity 유니티 충돌 처리 collision handling
 정적 오브젝트는 움직이지 않기 때문에 서로 충돌할 일이 없습니다.
 
 동적 오브젝트가 정적 오브젝트에 충돌할 때 OnTrigger__(), 동적 오브젝트끼리 충돌할 때 OnCollision__() 으로 처리하게 됩니다.
+<br><br>
 
 공부하면서 어떤 때에 OnTrigger__() 가 호출되고 어떤 때에 OnCollision__() 이 호출되는지 헷갈려서 모든 경우의 수를 고려해 직접 충돌시켜 보았습니다.
 
@@ -23,7 +24,6 @@ categories: Unity 유니티 충돌 처리 collision handling
 2. 둘 중 하나 이상은 Rigidbody 를 갖고 있어야 한다.
 3. 둘 중 하나 이상은 isTrigger 가 활성화 상태여야 한다.
 ```
-<br>
 
 OnCollision__() 의 발생 조건입니다.
 ```
