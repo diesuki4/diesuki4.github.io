@@ -11,7 +11,7 @@ Mathf.Pow(n, 2);
 ```
 <br>
 
-Pow는 거듭제곱$n^k) 을 뜻한다.
+Pow는 거듭제곱(n^k) 을 뜻한다.
 <br>
 
 ```
@@ -19,7 +19,7 @@ Mathf.Pow(n, k);
 ```
 <br>
 
-Square Root는 제곱근(루트 n) 을 뜻한다.
+Square Root는 제곱근(Root n) 을 뜻한다.
 <br>
 
 ```
