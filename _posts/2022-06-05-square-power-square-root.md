@@ -3,7 +3,7 @@ title: "제곱, 거듭제곱, 제곱근 / Square, Power, Square Root"
 date: 2022-06-05 11:39:25 +0900
 categories: 제곱 거듭제곱 제곱근 Square Root Power
 ---
-Square는 제곱($$n^2$$) 을 뜻한다.
+Square는 제곱(n^2) 을 뜻한다.
 <br>
 
 ```
@@ -11,7 +11,7 @@ Mathf.Pow(n, 2);
 ```
 <br>
 
-Pow는 거듭제곱($$n^k$$) 을 뜻한다.
+Pow는 거듭제곱$n^k) 을 뜻한다.
 <br>
 
 ```
@@ -19,7 +19,7 @@ Mathf.Pow(n, k);
 ```
 <br>
 
-Square Root는 제곱근($$\sqrt{n}$$) 을 뜻한다.
+Square Root는 제곱근(루트 n) 을 뜻한다.
 <br>
 
 ```
@@ -35,10 +35,10 @@ Mathf.Sqrt(n);
 ```
 // Vector3.sqrMagnitude는 벡터 크기의 제곱을 뜻한다.
 if (v1.sqrMagnitude > v2.sqrMagnitude)
-	Debug.Log("v1이 더 크다.");
+    Debug.Log("v1이 더 크다.");
 else if (v1.sqrMagnitude < v2.sqrMagnitude)
-	Debug.Log("v2가 더 크다.");
+    Debug.Log("v2가 더 크다.");
 else
-	Debug.Log("크기가 같다.");
+    Debug.Log("크기가 같다.");
 ```
 <br>
