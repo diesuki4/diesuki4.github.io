@@ -52,7 +52,7 @@ Vector3 projXZVector = Vector3.ProjectOnPlane(v, Vector3.up);
 // 벡터 v가 XY 평면에 반사된 벡터
 Vector3 refXYVector = Vector3.Reflect(v, Vector3.forward);
 
-// v1, v2를 둘 다 정규화하고, v2를 v1에 수직 방향으로 만든다.
+// v1, v2를 둘 다 정규화하고, v2를 v1의 수직 방향으로 만든다.
 // v2를 v1의 직교 평면에 정사영한 후, 둘 다 정규화한다고 생각하면 된다.
 Vector3.OrthoNormalize(ref v1.vector, ref v2.vector);
 ```
