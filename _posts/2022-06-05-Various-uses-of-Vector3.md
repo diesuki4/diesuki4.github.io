@@ -30,9 +30,9 @@ float degree = Vector3.Angle(v1, v2);
 
 // 방법 2
 // 내적을 이용해서도 각도를 구할 수 있다.
-// A · B = |A| * |B| * cosθ
-// θ = Arccos( (A·B) / (|A|*|B|) )
-float degree = Mathf.Acos(Vector3.Dot(v1, v2) / (v1.magnitude * v2.magnitude)) * Mathf.Rad2Deg;
+// e1 · e2 = |e1| * |e2| * cosθ = 1 * 1 * cosθ = cosθ
+// θ = Arccos(e1 · e2)
+float degree = Mathf.Acos(Vector3.Dot(v1.normalized, v2.normalized)) * Mathf.Rad2Deg;
 ```
 <br>
 
@@ -70,7 +70,7 @@ Vector3.OrthoNormalize(ref v1.vector, ref v2.vector);
 // (5) 자기 자신과의 내적은 cosθ 가 1 이므로, 벡터 크기의 제곱이 된다.
 // (6) 0 < 내적 이면, -90° < θ < 90°
 // (7) 내적 < 0 이면, 90° < θ < 270°
-// 계산 전에 두 벡터를 단위 벡터로 만들면, A · B = cosθ 가 된다.
+// 계산 전에 두 벡터를 단위 벡터로 만들면, e1 · e2 = cosθ 가 된다.
 
 float dot = Vector3.Dot(v1, v2);
 dot = v1.x * v2.x + v1.y * v2.y + v1.z * v2.z
@@ -191,7 +191,7 @@ Vector3 newVector = v1.magnitude * Vector3.Dot(v1.normalized, v2.normalized) * v
 // (5) A x B 의 크기는 A, B 가 만드는 평행 사변형의 넓이와 같다.
 // (6) 외적 C 는 A, B 모두에 수직이므로 각각의 내적은 0 이다.
 // sinθ 는 두 벡터가 수직일 때 1, 사잇각이 0° 과 180° 일 때 0 이다.
-// 계산 전에 두 벡터를 단위 벡터로 만들면, |A x B| = sinθ 가 된다.
+// 계산 전에 두 벡터를 단위 벡터로 만들면, |e1 x e2| = sinθ 가 된다.
 ```
 <br>
 
