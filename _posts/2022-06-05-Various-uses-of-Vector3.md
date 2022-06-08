@@ -173,7 +173,7 @@ else
 ```
 // 벡터 v1을 벡터 v2에 정사영
 // v1이 v2에 정사영된 벡터의 크기 = |v1| * cosθ
-// 정사영된 벡터 = |v1| * cosθ * v2 방향 단위 벡터
+// 정사영된 벡터 = |v1| * cosθ * v2의 방향 벡터
 Vector3 newVector = v1.magnitude * Vector3.Dot(v1.normalized, v2.normalized) * v2.normalized;
 ```
 <br>
@@ -184,7 +184,7 @@ Vector3 newVector = v1.magnitude * Vector3.Dot(v1.normalized, v2.normalized) * v
 ```
 // A x B = (Ay * Bz - By * Az, Az * Bx - Bz * Ax, Ax * By - Bx * Ay)
 // |A x B| = |A| * |B| * sinθ
-// (1) 외적의 결과는 A, B 에 둘 다 수직인 벡터(Normal Vector)이다.
+// (1) 외적의 결과는 A, B 에 둘 다 수직인 AB 평면의 법선 벡터(Normal Vector)이다.
 // (2) 외적은 교환 법칙이 성립하지 않는다.
 // (3) 두 벡터의 방향이 같거나, 서로 반대 방향이면 외적은 0 벡터이다.
 // (4) BxA 는 AxB 의 반대 방향 벡터이다.
