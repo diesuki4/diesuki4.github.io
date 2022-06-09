@@ -32,7 +32,11 @@ float degree = Vector3.Angle(v1, v2);
 // 내적을 이용해서도 각도를 구할 수 있다.
 // e1 · e2 = |e1| * |e2| * cosθ = 1 * 1 * cosθ = cosθ
 // θ = Arccos(e1 · e2)
-float degree = Mathf.Acos(Vector3.Dot(v1.normalized, v2.normalized)) * Mathf.Rad2Deg;
+degree = Mathf.Acos(Vector3.Dot(v1.normalized, v2.normalized)) * Mathf.Rad2Deg;
+
+// 부호 있는 각도로 구하는 방법
+// v1 기준 v2 와의 각도 (v2 가 우측이면 양수, 좌측이면 음수)
+degree = Vector3.SignedAngle(v1, v2, Vector3.up);
 ```
 <br>
 
