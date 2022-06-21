@@ -25,8 +25,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "STL" %}
-                        <li><a href="/categories/stl" class="">C++ STL & 표준 ({{category[1].size}})</a></li>
+                    {% if category[0] == "Game Hacking" %}
+                        <li><a href="/categories/game-hacking" class="">게임 해킹 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

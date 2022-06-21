@@ -1,7 +1,8 @@
 ---
 title: "치트엔진 튜토리얼 게임즈 레벨 3 다양한 솔루션들 / Cheat Engine Tutorial Games Level 3 various solutions"
 date: 2021-03-30 18:39:00 +0900
-categories: 치트엔진 튜토리얼 게임즈 레벨 3 솔루션
+categories: Game Hacking
+tags: [치트엔진, 튜토리얼, 게임즈, 레벨 3, 솔루션]
 ---
 치트엔진을 공부한지 어느덧 한달이 되었습니다.
 
