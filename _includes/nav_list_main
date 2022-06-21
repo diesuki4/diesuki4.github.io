@@ -25,6 +25,13 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "Pwnable" %}
+                        <li><a href="/categories/pwnable" class="">포너블 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "Game Hacking" %}
                         <li><a href="/categories/game-hacking" class="">게임 해킹 ({{category[1].size}})</a></li>
                     {% endif %}
