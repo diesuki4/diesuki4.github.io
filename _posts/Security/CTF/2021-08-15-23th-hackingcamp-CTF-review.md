@@ -1,7 +1,10 @@
 ---
 title: "제23회 해킹캠프 CTF 후기 / 23th Hackingcamp CTF review"
+excerpt: "첫 CTF 참가 소감"
 date: 2021-08-15 21:32:00 +0900
-categories: 제23회 해킹캠프 CTF 후기 23th Hackingcamp CTF review
+last_modified_at: 2022-06-21 20:40:06 +0900
+categories: [CTF]
+tags: [제23회, 해킹캠프, CTF, 후기, 23th, Hackingcamp, CTF, review]
 ---
 처음으로 제대로 참가해 본 CTF 입니다.
 

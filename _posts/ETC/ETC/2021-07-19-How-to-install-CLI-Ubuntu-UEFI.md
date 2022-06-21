@@ -1,7 +1,10 @@
 ---
 title: "CLI 우분투 UEFI 설치 메뉴얼 / How to install CLI Ubuntu UEFI"
+excerpt: "GUI를 사용하지 않고 가볍게 설치하고 싶을 때"
 date: 2021-07-19 12:37:00 +0900
-categories: CLI 우분투 설치 Ubuntu install UEFI
+last_modified_at: 2022-06-21 20:51:06 +0900
+categories: [ETC]
+tags: [CLI, 우분투, 설치, Ubuntu, install, UEFI]
 ---
 우분투 16.04 (Xenial) 64비트 기준 CLI 버전 UEFI 설치 방법입니다.
 <br><br>

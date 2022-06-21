@@ -1,9 +1,12 @@
 ---
 title: "pwntools 사용법 정리 / pwntools usage"
+excerpt: "유용한 활용법들"
 date: 2021-07-19 12:37:00 +0900
-categories: 포너블 시스템 해킹 pwntools 사용법
+last_modified_at: 2022-06-21 20:38:06 +0900
+categories: [Pwnable]
+tags: [포너블, 시스템 해킹, pwntools, 사용법]
 ---
-Dreamhack 의 System Exploitation Fundamental 강의와 포너블 문제들을 풀며 익힌 pwntools 사용법을 정리한 문서입니다.
+Dreamhack의 System Exploitation Fundamental 강의와 포너블 문제들을 풀며 익힌 pwntools 사용법을 정리한 문서입니다.
 <br><br>
 
 pwntools 임포트

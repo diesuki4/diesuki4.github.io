@@ -1,7 +1,10 @@
 ---
 title: "나혼자 Git, 이정도만 알면 된다 / Git usages"
+excerpt: "기본적인 Git 명령어"
 date: 2020-10-13 20:34:00 +0900
-categories: git 사용법 usage 명령어 command
+last_modified_at: 2022-06-21 20:52:06 +0900
+categories: [ETC]
+tags: [Git, 사용법, Usage, 명령어, Command]
 ---
 GUI가 지원되는 OS라면 그냥 Sourcetree나 Github Desktop을 쓰면 된다.
 본인은 GUI가 쓸데없는 리소스를 잡아먹는게 싫어서 개발용 PC를 CLI로 설치했다.

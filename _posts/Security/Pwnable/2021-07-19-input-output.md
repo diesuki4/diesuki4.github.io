@@ -1,9 +1,12 @@
 ---
 title: "포너블 입출력 정리 / pwnable IO"
+excerpt: "파이썬으로 포너블 입출력하기"
 date: 2021-07-19 13:55:00 +0900
-categories: 포너블 시스템 해킹 pwntools sys 입력 출력 입출력
+last_modified_at: 2022-06-21 20:35:06 +0900
+categories: [Pwnable]
+tags: [포너블, 시스템 해킹, pwntools, sys, 입력, 출력, 입출력]
 ---
-Dreamhack 의 System Exploitation Fundamental 강의와 포너블 문제들을 풀며 익힌 포너블 입출력 방법을 정리한 문서입니다.
+Dreamhack의 System Exploitation Fundamental 강의와 포너블 문제들을 풀며 익힌 포너블 입출력 방법을 정리한 문서입니다.
 <br><br>
 
 pwntools (바이트)
