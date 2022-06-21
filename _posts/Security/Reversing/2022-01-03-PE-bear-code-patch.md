@@ -1,7 +1,9 @@
 ---
 title: "PE-bear 코드 패치 / PE-bear code patch"
+excerpt: "PE-bear 기본 뷰 변경을 위한 실행파일 코드 패치"
 date: 2022-01-03 23:33:06 +0900
-categories: PE-bear 코드 패치 code patch
+categories: Reversing
+tags: [PE-bear, 코드, 패치, code, patch]
 ---
 PE 구조를 확인하기 위해 널리 사용되는 PEview 와 비슷한 기능을 제공하는 PE-bear 라는 툴이 있습니다.
 
