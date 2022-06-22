@@ -37,6 +37,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "CTF" %}
                         <li><a href="/categories/ctf" class="">CTF ({{category[1].size}})</a></li>
