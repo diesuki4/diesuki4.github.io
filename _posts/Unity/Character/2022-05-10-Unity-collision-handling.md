@@ -2,7 +2,7 @@
 title: "Unity 충돌 처리 / Unity collision handling"
 excerpt: "Collider, Rigidbody, CharacterController의 충돌 조건과 콜백 함수"
 date: 2022-05-10 20:12:06 +0900
-last_modified_at: 2022-06-221 21:52:06 +0900
+last_modified_at: 2022-06-22 21:52:06 +0900
 categories: [Unity Character]
 tags: [Unity, 유니티, 충돌 처리, Collision handling]
 ---
