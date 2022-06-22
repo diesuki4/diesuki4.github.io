@@ -1,5 +1,5 @@
 ---
-title: "임시"
+title: "Temp"
 layout: archive
 permalink: categories/temp
 author_profile: true

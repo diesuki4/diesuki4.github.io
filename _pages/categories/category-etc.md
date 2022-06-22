@@ -1,5 +1,5 @@
 ---
-title: "기타"
+title: "ETC"
 layout: archive
 permalink: categories/etc
 author_profile: true
