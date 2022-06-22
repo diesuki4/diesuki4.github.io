@@ -1,7 +1,10 @@
 ---
 title: "Vector3의 다양한 활용 / Various uses of Vector3"
+excerpt: "Vector3 클래스의 다양한 기능들"
 date: 2022-06-05 21:24:23 +0900
-categories: Vector3 다양한 활용 Various uses
+last_modified_at: 2022-06-22 21:20:06 +0900
+categories: [Unity Math]
+tags: [Vector3, 다양한, 활용, Various, Uses]
 ---
 벡터의 거리를 계산하는 방법
 <br>

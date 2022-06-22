@@ -1,7 +1,10 @@
 ---
 title: "Local forward 방향을 구하는 방법 / How to find the local forward direction"
+excerpt: "글로벌이 아닌, 로컬 좌표계에서의 forward 벡터를 구하는 방법"
 date: 2022-05-21 20:57:06 +0900
-categories: 방향을 구하는 방법 find the Local forward direction
+last_modified_at: 2022-06-22 21:47:06 +0900
+categories: [Unity Math]
+tags: [방향, 구하는 방법, Find, Local forward, Direction]
 ---
 transform.forward 는 글로벌 좌표계에서의 forward 방향 단위 벡터를 뜻합니다.
 

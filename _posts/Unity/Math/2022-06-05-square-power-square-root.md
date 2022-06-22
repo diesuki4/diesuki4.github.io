@@ -1,7 +1,10 @@
 ---
 title: "제곱, 거듭제곱, 제곱근 / Square, Power, Square Root"
+excerpt: "Unity에서 제곱을 다루는 기본적인 방법"
 date: 2022-06-05 11:39:25 +0900
-categories: 제곱 거듭제곱 제곱근 Square Root Power
+last_modified_at: 2022-06-22 21:20:06 +0900
+categories: [Unity Math]
+tags: [제곱, 거듭제곱, 제곱근, Square, Root, Power]
 ---
 Square는 제곱(n^2) 을 뜻한다.
 <br>

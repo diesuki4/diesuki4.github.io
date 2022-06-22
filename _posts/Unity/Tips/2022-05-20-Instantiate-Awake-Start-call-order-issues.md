@@ -1,7 +1,10 @@
 ---
 title: "Instantiate, Awake, Start 호출 순서 문제 / Instantiate, Awake, and Start call order issues"
+excerpt: "Awake, Start 호출 순서에 따른 오동작"
 date: 2022-05-20 12:45:06 +0900
-categories: Instantiate Awake Start 호출 순서 문제 call order issues
+last_modified_at: 2022-06-22 21:38:06 +0900
+categories: [Unity Tips]
+tags: [Instantiate, Awake, Start, 호출 순서, 문제, call order, issues]
 ---
 ```
 // Enemy.cs

@@ -1,7 +1,10 @@
 ---
 title: "메타버스 관련 개념 정리"
+excerpt: "그동안 여러 세미나에서 들은 메타버스 관련 개념들"
 date: 2022-05-31 19:31:06 +0900
-categories: 메타버스 관련 개념 정리
+last_modified_at: 2022-06-22 21:44:06 +0900
+categories: [Metaverse]
+tags: [메타버스, 개념, 정리]
 ---
 ```
 메타버스

@@ -1,7 +1,10 @@
 ---
 title: "Unity CharacterController에 대하여 / About Unity CharacterController"
+excerpt: "캐릭터 컨트롤러에 대한 세부 참고 사항"
 date: 2022-05-17 22:23:06 +0900
-categories: Unity CharacterController 유니티 캐릭터 컨트롤러
+last_modified_at: 2022-06-22 21:52:06 +0900
+categories: [Unity Character]
+tags: [Unity, CharacterController, 유니티, 캐릭터 컨트롤러]
 ---
 CharacterController 는 캐릭터가 움직이는데 무거운 Rigidbody 컴포넌트를 사용할 필요가 없기 때문에 가볍게 캐릭터 조작 전용으로 만들어진 컴포넌트입니다.
 

@@ -1,7 +1,10 @@
 ---
 title: "Unity 오브젝트의 라이프 사이클 / Unity object lifecycle"
+excerpt: "라이프 사이클 함수들의 실행 조건과 시기"
 date: 2022-05-19 16:13:03 +0900
-categories: Unity 오브젝트 라이프 사이클 object lifecycle
+last_modified_at: 2022-06-22 21:35:06 +0900
+categories: [Unity References]
+tags: [Unity, 오브젝트, 라이프 사이클, Object, Lifecycle]
 ---
 ![unity-c-beginners-cheat-sheet](https://user-images.githubusercontent.com/79886133/169446204-3e73f24a-1b97-4281-9512-1da005ed006c.png)
 <br>

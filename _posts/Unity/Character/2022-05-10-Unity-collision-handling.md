@@ -1,7 +1,10 @@
 ---
 title: "Unity 충돌 처리 / Unity collision handling"
+excerpt: "Collider, Rigidbody, CharacterController의 충돌 조건과 콜백 함수"
 date: 2022-05-10 20:12:06 +0900
-categories: Unity 유니티 충돌 처리 collision handling
+last_modified_at: 2022-06-221 21:52:06 +0900
+categories: [Unity Character]
+tags: [Unity, 유니티, 충돌 처리, Collision handling]
 ---
 원칙적으로 움직이는 오브젝트는 Collider 와 Rigidbody 를 둘 다 가져야 하고
 

@@ -11,6 +11,50 @@
             📂 <span>전체 글 수</span> <span>{{sum}}</span> <span>개</span> 
       </li>
       <li>
+        <span class="nav__sub-title">Unity</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Unity Math" %}
+                        <li><a href="/categories/unity-math" class="">수학 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Unity Graphics" %}
+                        <li><a href="/categories/unity-graphics" class="">그래픽 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Unity Character" %}
+                        <li><a href="/categories/unity-character" class="">캐릭터 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Unity Tips" %}
+                        <li><a href="/categories/unity-tips" class="">팁 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Unity References" %}
+                        <li><a href="/categories/unity-references" class="">참고 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">지식</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Metaverse" %}
+                        <li><a href="/categories/metaverse" class="">메타버스 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
         <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
         <span class="nav__sub-title">보안</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
@@ -49,6 +93,14 @@
                 {% for category in site.categories %}
                     {% if category[0] == "ETC" %}
                         <li><a href="/categories/etc" class="">ETC ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">임시</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Temp" %}
+                        <li><a href="/categories/temp" class="">Temp ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

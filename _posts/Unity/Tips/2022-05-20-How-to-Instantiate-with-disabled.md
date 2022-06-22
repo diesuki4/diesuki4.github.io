@@ -1,7 +1,9 @@
 ---
 title: "비활성화 상태로 Instantiate 하는 방법 / How to Instantiate with disabled"
 date: 2022-05-20 14:21:24 +0900
-categories: 비활성화 Instantiate 방법 How to disabled
+last_modified_at: 2022-06-22 21:37:06 +0900
+categories: [Unity Tips]
+tags: [비활성화, 방법, How to Instantiate, disabled]
 ---
 ![oCam_2022_06_05_14_59_56_464](https://user-images.githubusercontent.com/79886133/172037571-6ac444a2-39cf-48dd-b0a0-f26d9b22472b.png)
 <br>
