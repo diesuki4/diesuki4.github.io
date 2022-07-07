@@ -12,7 +12,7 @@ Capsule Collider 를 내장하고 있어 움직이는 Collider 라고 생각하�
 
 따라서, 충돌이 발생할 때도 힘을 받아 튕겨지는 Rigidbody 와 달리 물리적인 충돌 처리는 하지 않게 됩니다.
 
-[CharacterController 의 충돌 처리 참고](https://diesuki4.github.io/unity/%EC%9C%A0%EB%8B%88%ED%8B%B0/%EC%B6%A9%EB%8F%8C/%EC%B2%98%EB%A6%AC/collision/handling/Unity-collision-handling/)
+[CharacterController 의 충돌 처리 참고](https://diesuki4.github.io/unity%20character/Unity-collision-handling/)
 <br><br>
 
 CharacterController 를 사용하더라도 Move() 함수가 아닌 transform.position 으로 이동을 제어하면 오브젝트를 통과하여 지나가게 됩니다.
