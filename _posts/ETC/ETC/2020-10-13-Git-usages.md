@@ -125,3 +125,20 @@ git reset HEAD^
 ```
 git reset --hard HEAD^
 ```
+
+Filename too long 오류 발생 시
+```
+# 경로 길이 제한 해제
+git config --system core.longpaths true
+```
+
+LF will be replaced by CRLF 오류 발생 시
+```
+# Line End 형식을 CRLF(리눅스) -> LF(윈도우) 로 변경
+git config --global core.autocrlf true
+
+# 개행 문자를 autocrlf 설정에 따라 변환
+git config --global core.safecrlf false
+# 경고는 표시하되 변환하지 않고 수행
+git config --global core.safecrlf warn
+```
