@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Whitê Hacker ωannabe！"
+title                    : "Gamê Client Programmer ωannabe！"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Kyungbin Cho"
@@ -94,8 +94,8 @@ analytics:
 # Site Author
 author:
   name             : "Kyungbin Cho"
-  avatar           : "/assets/images/duonguyen-KRMd6gHoriQ-unsplash.jpg"
-  bio              : "Reverse Engineering, Malware Analysis, Game Hacking"
+  avatar           : "/assets/images/userlmn_a18d0c4444df5802b84c5d874c9bb8a8.png"
+  bio              : "Unreal Engine, Unity, DirectX, Game Development"
   location         : "Korea, Republic of"
   email            : # "your.name@email.com"
   links:
